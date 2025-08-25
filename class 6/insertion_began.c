@@ -31,8 +31,6 @@ int main() {
     new_head->data = 5;
     new_head->next = head;
     head = new_head;
-
-    printf("Linked List after insertion at the beginning:\n");
     current = head;
     while(current != NULL) {
         printf("%d->", current->data);
@@ -47,3 +45,4 @@ while (head != NULL) {
 
     return 0;
 }
+
