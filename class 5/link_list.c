@@ -1,3 +1,4 @@
+// This Programme is Solved By Ridwan Ahmed{315241092}
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -31,3 +32,4 @@ int main(){
     free(second);
     free(third);
 }
+
